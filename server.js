@@ -1,10 +1,9 @@
-const express = require('express');//imported express file
+const express = require('express');
 
 
-const app = express();//gives a security guard
+const app = express();
 
 
-app.listen(3333, ()=>{
+app.listen(3113, ()=>{
     console.log("server started");
 })
-//return "server started" when server have started
